@@ -1,0 +1,27 @@
+/* General body settings */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(90, 164, 212); /* Red background for the outside of the canvas */
+}
+
+.wave-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+}
+
+canvas {
+    display: block;
+    position: relative; 
+    z-index: 1; 
+    border: 5px solid white; 
+    border-radius: 10px; 
+}

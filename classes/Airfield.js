@@ -1,6 +1,6 @@
 class Airfield {
 	constructor(obj) {
-		this.numCrafts = obj.numCrafts || 5;
+		this.numCrafts = obj.numCrafts || 10;
 		this.airFieldWidth = obj.airFieldWidth || 400;
 		this.airFieldHeight = obj.airFieldHeight || 400;
 		this.crafts = obj.crafts || [];
@@ -12,7 +12,7 @@ class Airfield {
 	renderAirfield() {
 		push();
 		translate(this.airFieldPosX, this.airFieldPosY);
-		fill(200, 0, 0);
+		fill(200, 60, 60);
 		rect(0, 0, this.airFieldWidth, this.airFieldHeight);
 		pop();
 	}

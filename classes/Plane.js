@@ -19,7 +19,7 @@ class Plane extends Craft {
 		strokeWeight(1);
 		beginShape();
 		vertex(0, 0);
-		fill(200)
+		fill(255,200,50)
 		vertex(-this.tail, -this.apWidth / 2);
 		vertex(this.apHeight, -this.tail, 0);
 		vertex(-this.tail, this.apWidth / 2);

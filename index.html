@@ -3,6 +3,7 @@
 	<head>
 		<title>P5 System</title>
 		<!-- https://commencement2017.risd.edu/#home -->
+		<link rel="stylesheet" href="./style.css"/>
 		<script src="libraries/p5.min.js"></script>
 		<script src="classes/Craft.js"></script>
 		<script src="classes/Airfield.js"></script>
@@ -10,5 +11,11 @@
 		<script src="classes/Heli.js"></script>
 		<script src="sketch.js"></script>
 	</head>
-	<body></body>
+	<body><!-- Add the SVG container for the wave background -->
+		<div class="wave-container">
+			<!-- Paste the SVG code from getwaves.io here -->
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path fill="#a2d9ff" fill-opacity="1" d="M0,192L0,128L102.9,128L102.9,224L205.7,224L205.7,288L308.6,288L308.6,128L411.4,128L411.4,224L514.3,224L514.3,288L617.1,288L617.1,224L720,224L720,288L822.9,288L822.9,64L925.7,64L925.7,64L1028.6,64L1028.6,32L1131.4,32L1131.4,192L1234.3,192L1234.3,192L1337.1,192L1337.1,160L1440,160L1440,0L1337.1,0L1337.1,0L1234.3,0L1234.3,0L1131.4,0L1131.4,0L1028.6,0L1028.6,0L925.7,0L925.7,0L822.9,0L822.9,0L720,0L720,0L617.1,0L617.1,0L514.3,0L514.3,0L411.4,0L411.4,0L308.6,0L308.6,0L205.7,0L205.7,0L102.9,0L102.9,0L0,0L0,0Z"></path>
+			</svg>
+		</div></body>
 </html>

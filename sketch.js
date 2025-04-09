@@ -13,7 +13,7 @@ function setup(){
 }
 
 function draw(){
-    background(52,52,52)
+    background(100,100,100)
 
     airfields[0].renderAirfield()
     airfields[0].renderCrafts()
